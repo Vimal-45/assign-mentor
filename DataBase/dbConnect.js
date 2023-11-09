@@ -8,7 +8,7 @@ const connectDB = ()=>{
     try {
 
         const mongoURL = process.env.MONGOCONNECTSTRING;
-        console.log(mongoURL);
+        // console.log(mongoURL);
         const connection = mongoose.connect(mongoURL)
         console.log("MongoDB connected");
         return connection
