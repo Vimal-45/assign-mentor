@@ -17,7 +17,7 @@ connectDB();
 app.get('/', (req, res) => {
     const frontend = `
     <div>
-    < <ul>>
+    <ul>
       Frontend Link  <li><a href="https://frontend-assign-mentor.vercel.app/">Please Click here to send and post data</a></li>        
       </ul> 
       </div>
