@@ -16,9 +16,11 @@ app.use(express.json());
 connectDB();
 app.get('/', (req, res) => {
     const frontend = `
-      <ul>
-        <li><a href="https://frontend-assign-mentor.vercel.app/">Please Click here to send and post data</a></li>        
+    <div>
+    < <ul>>
+      Frontend Link  <li><a href="https://frontend-assign-mentor.vercel.app/">Please Click here to send and post data</a></li>        
       </ul> 
+      </div>
       <ul>
       <li>Get Mentor List - https://assign-mentor-9g6m.onrender.com/api/get/mentors</li>
       <li>Get Student List - https://assign-mentor-9g6m.onrender.com/api/get/student</li>
