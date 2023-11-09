@@ -15,16 +15,14 @@ app.use(express.json());
 
 connectDB();
 app.get('/', (req, res) => {
-    
     const frontend = `
       <ul>
-        <li><a https://frontend-assign-mentor.vercel.app/> Plese Clik here for send and post data </a></li>        
+        <li><a href="https://frontend-assign-mentor.vercel.app/">Please Click here to send and post data</a></li>        
       </ul> 
-      
     `;
     res.send(`The assign-Mentor app is working <br><br>${frontend}`);
-    
   });
+  
 app.use('/api',router)
 
 
